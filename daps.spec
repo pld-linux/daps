@@ -16,7 +16,7 @@ BuildRequires:	ImageMagick
 BuildRequires:	docbook-style-xsl-nons >= 1.78
 BuildRequires:	docbook-style-xsl-ns >= 1.78
 BuildRequires:	docbook-dtd45-xml
-BuildRequires:	docbook-dtd51-xml
+BuildRequires:	docbook-dtd51-xml >= 5.1-2
 BuildRequires:	jing
 BuildRequires:	libxml2-progs
 BuildRequires:	python3 >= 1:3.4
@@ -30,7 +30,7 @@ Requires:	ImageMagick
 Requires:	docbook-style-xsl-nons >= 1.78
 Requires:	docbook-style-xsl-ns >= 1.78
 Requires:	docbook-dtd45-xml
-Requires:	docbook-dtd51-xml
+Requires:	docbook-dtd51-xml >= 5.1-2
 Requires:	ghostscript
 Requires:	jing
 Requires:	jpackage-utils
