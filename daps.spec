@@ -26,6 +26,7 @@ BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	ruby-asciidoctor
 BuildRequires:	sed >= 4.0
 BuildRequires:	sgml-common
+BuildRequires:	xmlstarlet
 Requires:	ImageMagick
 Requires:	docbook-style-xsl-nons >= 1.78
 Requires:	docbook-style-xsl-ns >= 1.78
@@ -39,6 +40,7 @@ Requires:	make
 Requires:	python3 >= 1:3.4
 Requires:	python3-lxml >= 3.4.0
 Requires:	sgml-common
+Requires:	xmlstarlet
 Requires:	zip
 Suggests:	dia
 Suggests:	fop >= 1.0
@@ -49,7 +51,6 @@ Suggests:	perl-Image-ExifTool
 Suggests:	poppler-progs
 Suggests:	saxon
 Suggests:	xfig
-Suggests:	xmlstarlet
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
